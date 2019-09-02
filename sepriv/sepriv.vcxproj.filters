@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de origen\utils">
+      <UniqueIdentifier>{040dc37f-dfe9-48ac-bb9e-4e1ab3c3d610}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\privileges">
+      <UniqueIdentifier>{e9864db2-75d8-4d04-b845-deb25d65f428}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\groups">
+      <UniqueIdentifier>{8876b1ea-b2c9-449a-83b1-0cd01194e47c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\processes">
+      <UniqueIdentifier>{5b0e0a9b-b271-4c36-8b58-693c430a021d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\main_actions">
+      <UniqueIdentifier>{c013ba66-c257-4b84-b43e-45bd649df7b2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="list.c">
+      <Filter>Archivos de origen\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.c">
+      <Filter>Archivos de origen\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="str.c">
+      <Filter>Archivos de origen\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="privileges.c">
+      <Filter>Archivos de origen\privileges</Filter>
+    </ClCompile>
+    <ClCompile Include="lsa.c">
+      <Filter>Archivos de origen\privileges</Filter>
+    </ClCompile>
+    <ClCompile Include="token.c">
+      <Filter>Archivos de origen\privileges</Filter>
+    </ClCompile>
+    <ClCompile Include="group.c">
+      <Filter>Archivos de origen\groups</Filter>
+    </ClCompile>
+    <ClCompile Include="process.c">
+      <Filter>Archivos de origen\processes</Filter>
+    </ClCompile>
+    <ClCompile Include="user_privileges.c">
+      <Filter>Archivos de origen\main_actions</Filter>
+    </ClCompile>
+    <ClCompile Include="process_privilege.c">
+      <Filter>Archivos de origen\main_actions</Filter>
+    </ClCompile>
+    <ClCompile Include="help.c">
+      <Filter>Archivos de origen\main_actions</Filter>
+    </ClCompile>
+    <ClCompile Include="arguments.c">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="alloc.h">
+      <Filter>Archivos de origen\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="list.h">
+      <Filter>Archivos de origen\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Archivos de origen\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="str.h">
+      <Filter>Archivos de origen\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="privileges.h">
+      <Filter>Archivos de origen\privileges</Filter>
+    </ClInclude>
+    <ClInclude Include="lsa.h">
+      <Filter>Archivos de origen\privileges</Filter>
+    </ClInclude>
+    <ClInclude Include="token.h">
+      <Filter>Archivos de origen\privileges</Filter>
+    </ClInclude>
+    <ClInclude Include="token_priv.h">
+      <Filter>Archivos de origen\privileges</Filter>
+    </ClInclude>
+    <ClInclude Include="group.h">
+      <Filter>Archivos de origen\groups</Filter>
+    </ClInclude>
+    <ClInclude Include="process.h">
+      <Filter>Archivos de origen\processes</Filter>
+    </ClInclude>
+    <ClInclude Include="user_privileges.h">
+      <Filter>Archivos de origen\main_actions</Filter>
+    </ClInclude>
+    <ClInclude Include="process_privilege.h">
+      <Filter>Archivos de origen\main_actions</Filter>
+    </ClInclude>
+    <ClInclude Include="help.h">
+      <Filter>Archivos de origen\main_actions</Filter>
+    </ClInclude>
+    <ClInclude Include="arguments.h">
+      <Filter>Archivos de origen</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
