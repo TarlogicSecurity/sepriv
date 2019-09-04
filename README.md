@@ -2,6 +2,8 @@
 
 Tool to modify user privileges. It allows to add or delete privileges from an user, as well as enable or disable the privileges of processes tokens.
 
+It is possible to download directly the binaries in [releases](https://github.com/TarlogicSecurity/sepriv/releases).
+
 ## A little about privileges
 
 User privileges are not exactly the same as process privileges.
